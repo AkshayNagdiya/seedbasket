@@ -1,0 +1,216 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+}
+.bttn{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+}
+.bttn button{
+    padding: 10px;
+    padding-inline: 50px;
+    border: none;
+    border-radius: 8px 8px 0px 0px;
+    color: white;
+    background-color:rgb(115, 190, 227) ;
+}
+.nav-top{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(151, 148, 148);
+}
+.nav-top p{
+    color: whitesmoke;
+    margin-bottom: 0px;
+}
+.nav-top span a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-inline: 10px;
+}
+.containerr{
+    padding-inline: 200px;
+}
+/* *********************** */
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav span input{
+    padding: 5px;
+    width: 300px;
+    border: 2ps solid grey;
+}
+.nav span button{
+    width: 250px;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(56, 168, 224);
+}
+/* ************************ */
+.button{
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button button{
+    background-color: green;
+    padding: 8px;
+    border: 1px solid snow;
+    border-radius: 5px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    border-right: 2px solid rgb(146, 146, 146);
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+.button a:last-child{
+    border-right: 0px;
+}
+/* *********************** */
+.container{
+    height: auto;
+    padding-inline: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h2{
+    padding-top: 50px;
+}
+.container span{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container span .box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-right: 10px;
+}
+/* ***************************** */
+.rating{
+    padding-top: 50px;
+}
+.rating p{
+    font-size: 12px;
+    margin: 0px;
+}
+.rating .box{
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgb(215, 215, 215);
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* ****************************** */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(69, 69, 68);
+    padding-block: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    flex-direction: column;
+}
+.footer div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(150, 144, 144);
+    font-size: 15px;
+}
+.footer .divider{
+    width: 70%;
+    background-color: rgb(119, 124, 124);
+    padding: 2px;
+    margin-top: 10px;
+}
+/* **************************** */
+@media (max-width:1024px) {
+    .nav-top{
+        font-size: 12px;
+    }
+    .nav-top p{
+        margin-bottom: 0px;
+    }
+    .containerr{
+        width: 100%;
+        padding-block: 0px;
+        padding: 10px;
+    }
+    .button a{
+        font-size: 15px;
+
+    }
+    .nav{
+        height: 70px;
+    }
+}
+
+@media (max-width:768px) {
+    .nav-top{
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+    .nav-top p{
+        margin-bottom: 0px;
+    }
+    .containerr{
+        width: 100%;
+        padding-block: 0px;
+        padding: 10px;
+    }
+    .button a{
+        font-size: 10px;
+
+    }
+    .nav{
+        height: 70px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer div{
+        width: 100%;
+        padding-inline: 20px;
+    }
+    .footer .divider{
+        width: 95%;
+    }
+}
